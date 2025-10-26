@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Learning Journey</title>
+   {% load static %}
+<link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>My Learning Journey</h1>
+        <p>{{ journey.school_history }}</p>
+        <p><strong>Current Status:</strong> {{ journey.current_status }}</p>
+
+        <h3>Admin Interface Screenshot</h3>
+        <img src="{% static 'images/1.png' %}" alt="Admin Screenshot" class="screenshot">
+
+        <a href="{% url 'about' %}" class="btn">About Me</a>
+    </div>
+</body>
+</html>

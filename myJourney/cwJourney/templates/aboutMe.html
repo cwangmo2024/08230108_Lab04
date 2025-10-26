@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    {% load static %}
+<link rel="stylesheet" href="{% static 'styles/styles.css' %}">
+
+</head>
+<body>
+    <div class="container">
+        <h1>About Me</h1>
+        <p><strong>Name:</strong> {{ about.name }}</p>
+        <p><strong>Age:</strong> {{ about.age }}</p>
+        <p><strong>Place:</strong> {{ about.place }}</p>
+        <p><strong>Hobby:</strong> {{ about.hobby }}</p>
+        <p><strong>Favorite Song:</strong> {{ about.favorite_song }}</p>
+
+        <h3>Admin Interface Screenshot</h3>
+        <img src="{% static 'images/2.png' %}" alt="Admin Screenshot" class="screenshot">
+
+        <a href="{% url 'index' %}" class="btn">Back to Journey</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+/* 🌸 General Page Style */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #ffe6f2; /* soft pink background */
+    color: #4d004d; /* dark pinkish-purple text */
+    margin: 0;
+    padding: 0;
+}
+
+/* 🌸 Container Box */
+.container {
+    width: 70%;
+    margin: 60px auto;
+    background-color: #fff0f5; /* very light pink */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #ff99cc; /* soft pink shadow */
+    text-align: center;
+}
+
+/* 🌸 Headings */
+h1, h3 {
+    color: #e60073; /* vibrant pink */
+}
+
+/* 🌸 Paragraphs */
+p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* 🌸 Buttons / Links */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #ff66b2;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff3385;
+}
+
+/* 🌸 Screenshot Image */
+.screenshot {
+    width: 80%;
+    max-width: 500px;
+    border: 3px solid #ffb3d9;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px #ffcce6;
+}
